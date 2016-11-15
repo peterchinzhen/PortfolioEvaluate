@@ -61,7 +61,7 @@ CREATE TABLE `t_user_info` (
   `user_name` varchar(30) DEFAULT NULL,
   `password` varchar(100) DEFAULT NULL,
   `work_id` int(11) DEFAULT NULL,
-  `wechat_id` varchar(30) DEFAULT NULL,
+  --`wechat_id` varchar(30) DEFAULT NULL,
   `phone_num` int(11) DEFAULT NULL,
   `email` varchar(60) DEFAULT NULL,
   PRIMARY KEY (`user_id`)
